@@ -482,7 +482,7 @@ coco_base_config = Config({
     'mask_proto_double_loss': False,
     'mask_proto_double_loss_alpha': 1,
     'mask_proto_split_prototypes_by_head': False,
-    'mask_proto_crop_with_pred_box': False,
+    'mask_proto_crop_with_pred_box': True,
 
     # SSD data augmentation parameters
     # Randomize hue, vibrance, etc.
